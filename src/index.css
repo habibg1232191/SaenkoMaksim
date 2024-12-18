@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Roboto','Helvetica', 'Arial', 'sans-serif', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  overflow-x:hidden;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:link, a:visited {
+  color: inherit; /* Цвет текста ссылки */
+  text-decoration: none; /* Убирает подчёркивание под текстом */
+}
+a:hover, a:active {
+  color: inherit; /* Цвет текста ссылки при наведении и нажатии */
+}
+
+
+@media (max-width > 1px) {
+  h1{
+      color: black;
+
+  }
+}
+
+@media screen and(max-device-width > 1px) {
+  .h1{
+    color: black;
+
+  }
+}

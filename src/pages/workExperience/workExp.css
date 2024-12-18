@@ -1,0 +1,80 @@
+
+
+.mainBlockYO{
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+    width:100vw;
+    height:auto;
+    color: #FFFFFF;
+    padding:20vh 20vw 10vh 5vw;
+    font-size: 1.3vw;
+}
+
+.lastBlockYO{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55vw;
+    height: 27vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.lastBlockYO1200{
+    width: 90vw;
+}
+
+.lastBlockYO700{
+    font-size: 0.6rem;
+}
+
+
+
+.elementYO{
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin-right: 4vw;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstBlockYO{
+    display: flex;
+    width: 40vw;
+    height: 55vh;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+}
+
+.firstBlockYO992{
+    width: 70vw;
+}
+
+.firstBlockYO992 h4{
+    margin-top: 20vh;
+}
+
+.elementYO h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+    margin-top: 1vh;
+}
+
+.But{
+    background-color: gold;
+    padding: 1% 2% 1% 2%;
+    border-radius: 2em;
+    position: absolute;
+    bottom: 25vh;
+    right: 30vw;
+    font-size: 2em;
+    color: white;
+    border:3px solid gold;
+    transition: 1s;
+    width: 40vw;
+    height: auto;
+}
+

@@ -1,0 +1,69 @@
+
+
+.headerDiv{
+   display: flex;
+   position: fixed;
+   flex-direction: row;
+   height: 11vh;
+   width: 100vw;
+   background-color: white;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 0 4px 2px -2px gray;
+   top:0;
+   left:0;
+   z-index: 100;
+}
+
+.divRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30vw;
+    align-items: center;
+}
+
+.divColumn{
+    display: flex;
+    flex-direction: column; 
+    padding-left:  3%;  
+}
+
+.item{
+    margin-left: 4vh;
+    transition: 1s; 
+    text-align: center;
+    border-bottom: 0 solid gold; /* Параметры линии снизу */
+    transition: 0.2s;
+    color: inherit; /* Цвет текста ссылки */
+    text-decoration: none; /* Убирает подчёркивание под текстом */
+}
+
+.item:hover{
+    border-bottom-width: 3px;
+}
+
+a:link, a:visited {
+    color: inherit; /* Цвет текста ссылки */
+    text-decoration: none; /* Убирает подчёркивание под текстом */
+  }
+  a:hover, a:active {
+    color: inherit; /* Цвет текста ссылки при наведении и нажатии */
+}
+
+li , li:active , li:visited ,li:hover{
+    background-color: white;
+}
+
+.dropdown-item.active{
+    background-color: gold;
+}
+
+
+.dropdown-item:hover {
+    background-color: gold;
+    }
+    
+.dropdown-item.active, .dropdown-item:active {
+    background-color: gold;
+}

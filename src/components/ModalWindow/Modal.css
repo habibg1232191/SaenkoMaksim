@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 70vw;
+    color:black;
+    height: 90vh;
+    padding: 3vw;
+    border-radius: 3vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+    position: relative;
+  }
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 20px;
+}
+
+.Button{
+    padding: 1% 2% 1% 2%;
+    border-radius:10px;
+    background-color:gold;
+    color:white;
+    border:2px solid gold;
+    width:200px;
+    height:auto;
+    margin-top:3%;
+    transition: 1s;
+}
+
+.Button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color:gold;
+}
+
+
+

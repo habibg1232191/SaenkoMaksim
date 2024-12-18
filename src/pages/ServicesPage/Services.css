@@ -1,0 +1,26 @@
+
+
+.ServicesDiv{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 12.5vw 5vh 12.5vw;
+    
+}
+
+.firstServiceBlock{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
