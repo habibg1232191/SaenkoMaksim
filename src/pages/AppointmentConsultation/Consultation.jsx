@@ -7,6 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import { useDispatch, useSelector } from "react-redux";
 import { ChangeModalViewOpen, ChangeService } from "../../store/consReducer";
 import { ModalView } from "../../components/ModalView/ModalV";
+import { emailjs } from "@emailjs/browser";
 
 
 export function Consultation(){
@@ -68,7 +69,6 @@ export function Consultation(){
 
 
     const sendFeedback = async () => {
-        const ulr = process.env.REACT_APP_BASE_URL + "/feedback"
         const dataToSend = {
             name: fio,
             phone: number,
@@ -76,11 +76,17 @@ export function Consultation(){
             type: Service,
             message: message
         }
+        const data = {
+            service_id: 'service_hxnqae9',
+            template_id: 'template_rlh1nxn',
+            user_id: 'ZFaZc2gXsXnV50YJ3',
+            template_params: dataToSend
+        }
 
         clear()
 
         try {  
-            await axios.post(ulr, dataToSend)
+            await axios.post("https://api.emailjs.com/api/v1.0/email/send", data)
             setMailSend(true)
             dispatch(ChangeModalViewOpen())
         } catch (error) {  
